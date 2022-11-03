@@ -1,8 +1,7 @@
 package com.example.fragmentsapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.fragmentsapp.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fragmentsapp.utils.addFragment
 import com.example.fragmentsapp.utils.replaceFragment
 
@@ -22,10 +21,10 @@ class MainActivity : AppCompatActivity(), HomeFragment.OnFragmentInteractionList
 
     }
 
-    override fun onHelpButtonPressed() {
+    override fun onHelpButtonPressed(exampleParam: Int) {
         supportFragmentManager.replaceFragment(
             R.id.fragment_container,
-            HelpFragment(),
+            HelpFragment.newInstance(exampleParam),
             true,
             HomeFragment.TAG
         )
