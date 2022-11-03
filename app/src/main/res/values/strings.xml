@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fragments App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_screen_title">Curso Android</string>
+    <string name="start_button">Quiero inscribirme</string>
+    <string name="help_button">Ayuda</string>
+    <string name="help_title">Ayuda</string>
+    <string name="form_title">Formulario de inscripción</string>
+    <string name="form_name">Nombre</string>
+    <string name="form_surname">Apellido</string>
+    <string name="form_nickname">Apodo</string>
+    <string name="form_email">E-mail</string>
+    <string name="form_document">Documento</string>
+    <string name="form_address">Dirección</string>
+    <string name="form_job">Ocupación</string>
+    <string name="form_favorite_view">Vista favorita</string>
+    <string name="confirm_form">Confirmar inscripción</string>
+</resources>
